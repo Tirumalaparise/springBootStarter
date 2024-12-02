@@ -17,6 +17,7 @@ public class Product {
     private String prodName;
     private int price;
 
+
     public void setProdId(Integer prodId) {
         prodId = prodId;
     }
