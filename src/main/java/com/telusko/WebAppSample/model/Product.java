@@ -18,20 +18,19 @@ public class Product {
     private int price;
 
 
-    public void setProdId(Integer prodId) {
-        prodId = prodId;
-//        Comment to create git history
+    public void setProdId(int prodId) {
+        this.prodId = prodId;
     }
 
     public void setProdName(String prodName) {
-        prodName = prodName;
+        this.prodName = prodName;
     }
 
-    public void setPrice(Integer price) {
-        price = price;
+    public void setPrice(int price) {
+        this.price = price;
     }
 
-    public Integer getProdId() {
+    public int getProdId() {
         return prodId;
     }
 
@@ -39,7 +38,7 @@ public class Product {
         return prodName;
     }
 
-    public Integer getPrice() {
+    public int getPrice() {
         return price;
     }
 }
