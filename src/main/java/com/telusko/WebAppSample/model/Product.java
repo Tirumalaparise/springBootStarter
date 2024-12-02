@@ -20,6 +20,7 @@ public class Product {
 
     public void setProdId(Integer prodId) {
         prodId = prodId;
+//        Comment to create git history
     }
 
     public void setProdName(String prodName) {
